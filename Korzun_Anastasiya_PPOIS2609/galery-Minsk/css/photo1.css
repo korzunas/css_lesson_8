@@ -42,4 +42,16 @@ h1 {
   margin: 5px;                           /* Отступы между изображениями */
   border-radius: 6px;
 }
+.hovergallery img:hover {
+  -webkit-transform: scale(1.1);         /* Webkit: увеличение до 1.1 от оригинала */
+  -moz-transform: scale(1.1);            /* Для Mozilla */
+  -o-transform: scale(1.1);              /* Для Opera */
+  transform: scale(1.1);
+  -webkit-box-shadow: 0px 6px 24px rgba(31, 111, 139, 0.65);  /* Для Safari */
+  -moz-box-shadow: 0px 6px 24px rgba(31, 111, 139, 0.65);     /* Для Mozilla */
+  box-shadow: 0px 6px 24px rgba(31, 111, 139, 0.65);          /* Тень цвета морской волны, смещена вниз */
+  opacity: 1;
+  position: relative;
+  z-index: 1;                            /* Увеличенная картинка поверх соседних */
+}
 
