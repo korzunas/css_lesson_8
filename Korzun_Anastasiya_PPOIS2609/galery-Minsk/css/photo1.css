@@ -31,4 +31,7 @@ h1 {
   aspect-ratio: 300 / 204;
   object-fit: cover;
   -webkit-transform: scale(0.75);        /* Webkit: уменьшить изображения до 0.75 от оригинала */
+  -moz-transform: scale(0.75);           /* Для Mozilla */
+  -o-transform: scale(0.75);             /* Для Opera */
+  transform: scale(0.75);
 
