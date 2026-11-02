@@ -23,4 +23,12 @@ h1 {
 .hovergallery a {
   display: block;
 }
+.hovergallery img {
+  display: block;
+  width: 300px;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 300 / 204;
+  object-fit: cover;
+  -webkit-transform: scale(0.75);        /* Webkit: уменьшить изображения до 0.75 от оригинала */
 
