@@ -1,1 +1,26 @@
+/* Фотогалерея на CSS3. Корзун Анастасия, ППОИС2609
+   Мой вариант: scale(0.75) на scale(1.1), тень цвета морской волны */
+body {
+  margin: 0;
+  padding: 20px 16px;
+  background: #f4efe6;
+  font-family: Arial, sans-serif;
+}
+h1 {
+  margin: 0 0 10px;
+  text-align: center;
+  color: #1f6f8b;
+}
+/* Вместо align="center" и float: left — flex, чтобы галерея была по центру
+   и переносилась на планшете и телефоне */
+.hovergallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+.hovergallery a {
+  display: block;
+}
 
